@@ -5,7 +5,6 @@
       name = document.getElementById('inputName');
       email = document.getElementById('inputEmail');
       message = document.getElementById('inputMessage');
-      console.log(name);
       if (!name.value || !email.value || !message.value) {
         return false;
       } else {
